@@ -1,0 +1,37 @@
+.header{
+    background-color: #00ffff;
+    display:flex;
+    justify-content: center;
+}
+
+.follow{
+    background-color: #00ffff;
+    display:flex;
+    justify-content: center;
+}
+
+.item{
+    background-color: #00ffff;
+    text-align: center;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:red;
+    font-size: large;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
